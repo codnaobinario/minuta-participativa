@@ -4,7 +4,7 @@
         <div class="pure-u-1 topbar">
             <a href="http://gestaourbana.prefeitura.sp.gov.br/" class="logo-gestao">Gestão Urbana SP</a>
             <a href="http://gestaourbana.prefeitura.sp.gov.br/" class="voltar-gestao">Voltar</a>
-            <p>Minuta Participativa do PDE</p>
+            <p><?php bloginfo('name'); ?></p>
             <div class="socialbar pure-g-r">
                 <div class="pure-u-1-3">
                     <a href="#"
@@ -38,11 +38,11 @@
             </div>
         </div>
         <div class="pure-u-1 menubar">
-            <ul class="primary">
-                <!--li><a href="#" class="active"><i class="icon-propose"></i> minuta participativa</a></li-->
+            <!--ul class="primary">
+                <li><a href="#" class="active"><i class="icon-propose"></i> minuta participativa</a></li>
                 <li><a href="http://gestaourbana.prefeitura.sp.gov.br/arquivos/mapas/mapas.zip" class="active"><i class="icon-map"></i> mapas</a></li>
                 <li><a href="http://gestaourbana.prefeitura.sp.gov.br/arquivos/quadros/quadros_preliminar.zip" class="active"><i class="icon-quadro"></i> quadros</a></li>
-            </ul>
+            </ul-->
             <ul class="secondary">
                 <li><a class="help-button" href="#">Ajuda</a></li>
                 <?php if ( is_user_logged_in() ) :

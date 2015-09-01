@@ -11,7 +11,7 @@
         <meta name="description" content="<?php bloginfo('description'); ?>">
 
         <meta property="og:title" content="<?php bloginfo('name'); ?>" />
-        <meta property="og:image" content="<?php bloginfo('stylesheet_directory'); ?>/images/compartilhar.png" />
+        <!--meta property="og:image" content="<?php bloginfo('stylesheet_directory'); ?>/images/compartilhar.png" /-->
         <meta property="og:description" content="<?php bloginfo('description'); ?>" />
 
         <meta name="viewport" content="width=device-width">

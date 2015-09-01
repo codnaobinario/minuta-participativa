@@ -21,7 +21,7 @@ function remove_password_email_text ( $text ) {
     }
 
     // add our new function to the login_message hook
-    add_action('login_message', 'ik_change_login_message');
+    // add_action('login_message', 'ik_change_login_message');
 
 function my_login_logo() { ?>
     <style type="text/css">
@@ -33,7 +33,7 @@ function my_login_logo() { ?>
         }
     </style>
 <?php }
-add_action( 'login_enqueue_scripts', 'my_login_logo' );
+// add_action( 'login_enqueue_scripts', 'my_login_logo' );
 
 function admin_default_page() {
   return '/';
@@ -145,7 +145,7 @@ function da_validate_register_fields($login, $email, $errors) {
     $errors->add('form_errors',
                  '<strong>ERRO:</strong> O CEP informado é inválido');
 }
-add_action('register_post', 'da_validate_register_fields', 10, 3);
+// add_action('register_post', 'da_validate_register_fields', 10, 3);
 
 /* Customizing comment data. This should only affect comments of posts
  * with dialogue enabled. */

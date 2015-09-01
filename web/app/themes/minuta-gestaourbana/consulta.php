@@ -2,8 +2,8 @@
 <?php get_header(); ?>
     <div class="pure-g-r">
         <div class="pure-u-1 topbar">
-            <a href="http://gestaourbana.prefeitura.sp.gov.br/" class="logo-gestao">Gestão Urbana SP</a>
-            <a href="http://gestaourbana.prefeitura.sp.gov.br/" class="voltar-gestao">Voltar</a>
+            <!--a href="http://gestaourbana.prefeitura.sp.gov.br/" class="logo-gestao">Gestão Urbana SP</a>
+            <a href="http://gestaourbana.prefeitura.sp.gov.br/" class="voltar-gestao">Voltar</a-->
             <p><?php bloginfo('name'); ?></p>
             <div class="socialbar pure-g-r">
                 <div class="pure-u-1-3">
@@ -38,11 +38,11 @@
             </div>
         </div>
         <div class="pure-u-1 menubar">
-            <!--ul class="primary">
-                <li><a href="#" class="active"><i class="icon-propose"></i> minuta participativa</a></li>
+            <ul class="primary">
+                <!--li><a href="#" class="active"><i class="icon-propose"></i> minuta participativa</a></li>
                 <li><a href="http://gestaourbana.prefeitura.sp.gov.br/arquivos/mapas/mapas.zip" class="active"><i class="icon-map"></i> mapas</a></li>
-                <li><a href="http://gestaourbana.prefeitura.sp.gov.br/arquivos/quadros/quadros_preliminar.zip" class="active"><i class="icon-quadro"></i> quadros</a></li>
-            </ul-->
+                <li><a href="http://gestaourbana.prefeitura.sp.gov.br/arquivos/quadros/quadros_preliminar.zip" class="active"><i class="icon-quadro"></i> quadros</a></li-->
+            </ul>
             <ul class="secondary">
                 <li><a class="help-button" href="#">Ajuda</a></li>
                 <?php if ( is_user_logged_in() ) :
@@ -78,18 +78,18 @@
         <?php endwhile; ?>
         </div>
         <div class="pure-u-2-5 sidebar">
-            <div class="sidebox sub-featured" data-intro="Aqui está o texto do PDE de 2002 para consulta. Assim fica fácil ver as diferenças entre a lei antiga e a nova." data-step="3" data-position="left">
+            <div class="sidebox sub-featured" data-intro="Aqui está o texto de ajuda para consulta atual. Assim fica mais fácil analisar e comentar." data-step="3" data-position="left">
                 <?php $pp = get_posts(array('post_type'=>'page', 'ID'=>2)); $pp = $pp[0]; ?>
                 <h2><i class="icon-book"></i><?php echo $pp->post_title; ?></h2>
                 <div class="text-content" data-url="<?php echo WP_HOME; ?>/minuta-antiga/">
                 <?php //echo ($pp->post_content); ?>
                 </div>
                 <div class="related-content">
-                    <p>
+                    <!--p>
                         conteúdo relacionado:
                         <a target="_blank" href="http://www.prefeitura.sp.gov.br/cidade/secretarias/desenvolvimento_urbano/legislacao/plano_diretor/index.php?p=1391"><i class="icon-map"></i>mapas</a>
                         <a target="_blank" href="http://www.prefeitura.sp.gov.br/cidade/secretarias/desenvolvimento_urbano/legislacao/plano_diretor/index.php?p=1392"><i class="icon-quadro"></i>quadros</a>
-                    </p>
+                    </p-->
                 </div>
             </div>
 

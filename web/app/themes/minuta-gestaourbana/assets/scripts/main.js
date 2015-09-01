@@ -1,6 +1,6 @@
 require.config({
     paths: {
-        jquery: '../bower_components/jquery/jquery',
+        jquery: '../bower_components/jquery/dist/jquery',
         minimalect: '../bower_components/minimalect/jquery.minimalect',
         expander: '../bower_components/jquery-expander/jquery.expander',
         easyModal: '../bower_components/easyModal.js/jquery.easyModal',

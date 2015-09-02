@@ -24,7 +24,7 @@
                     <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
                 </div>
                 <div class="pure-u-1-3">
-                    <div class="g-plus" data-action="share" data-annotation="bubble"></div>
+                    <!--div class="g-plus" data-action="share" data-annotation="bubble"></div>
                     <script type="text/javascript">
                       window.___gcfg = {lang: 'pt-BR'};
 
@@ -33,7 +33,7 @@
                         po.src = 'https://apis.google.com/js/plusone.js';
                         var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
                       })();
-                    </script>
+                    </script-->
                 </div>
             </div>
         </div>
@@ -77,30 +77,32 @@
             </div>
         <?php endwhile; ?>
         </div>
-        <div class="pure-u-2-5 sidebar">
+		<div class="pure-u-2-5 sidebar">
+<?php
+/*
             <div class="sidebox sub-featured" data-intro="Aqui está o texto de ajuda para consulta atual. Assim fica mais fácil analisar e comentar." data-step="3" data-position="left">
                 <?php $pp = get_posts(array('post_type'=>'page', 'ID'=>2)); $pp = $pp[0]; ?>
                 <h2><i class="icon-book"></i><?php echo $pp->post_title; ?></h2>
                 <div class="text-content" data-url="<?php echo WP_HOME; ?>/minuta-antiga/">
-                <?php //echo ($pp->post_content); ?>
+                <?php echo ($pp->post_content); ?>
                 </div>
                 <div class="related-content">
-                    <!--p>
+                    <p>
                         conteúdo relacionado:
                         <a target="_blank" href="http://www.prefeitura.sp.gov.br/cidade/secretarias/desenvolvimento_urbano/legislacao/plano_diretor/index.php?p=1391"><i class="icon-map"></i>mapas</a>
                         <a target="_blank" href="http://www.prefeitura.sp.gov.br/cidade/secretarias/desenvolvimento_urbano/legislacao/plano_diretor/index.php?p=1392"><i class="icon-quadro"></i>quadros</a>
-                    </p-->
+                    </p>
                 </div>
             </div>
 
-            <!--div class="sidebox featured-comment" data-intro="Estas são as explicações da Secretaria de Desenvolvimento Urbano (SMDU) e as propostas feitas pela população que estão relacionados com o trecho que você selecionar." data-step="4" data-position="left">
+            <div class="sidebox featured-comment" data-intro="Estas são as explicações da Secretaria de Desenvolvimento Urbano (SMDU) e as propostas feitas pela população que estão relacionados com o trecho que você selecionar." data-step="4" data-position="left">
                 <h2><i class="icon-pencil"></i>observações da smdu</h2>
                 <div class="text-content" id="commentFeaturedContainer">
                 </div>
                 <div class="related-content">
                 </div>
-            </div-->
-
+            </div>
+ */ ?>
             <div class="sidebox comments" data-intro="Após ler o trecho e comparar com a versão anterior do PDE, use este espaço para enviar o seu comentário." data-step="5" data-position="left">
                 <h2><i class="icon-comment"></i>comentários</h2>
                 <div id="commentContainer">

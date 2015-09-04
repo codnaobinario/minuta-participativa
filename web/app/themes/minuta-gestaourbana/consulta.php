@@ -67,7 +67,7 @@
         </div>
         <div class="pure-u-3-5 content">
             <?php query_posts('category_name=Consulta'); while (have_posts()) : the_post(); ?>
-            <h1 data-step="1" data-intro="Bem-vindo a Minuta Participativa. Esta é a 4ª e última etapa da Revisão Participativa do PDE. Clique em 'Próximo' para entender como este site funciona ou 'Pular' para sair da ajuda inicial."><?php the_title(); ?></h1>
+            <h1 data-step="1" data-intro="Bem-vindo a Revisão do Estatuto. Clique em 'Próximo' para entender como este site funciona ou 'Pular' para sair da ajuda inicial."><?php the_title(); ?></h1>
             <div class="comments-bar">
                 <i class="icon-comment-bg"></i>
                 <span class="count-comment">Total de comentários <?php $comments = wp_count_comments($post->ID); echo "(" . $comments->approved . ")"; ?></span>
@@ -103,7 +103,7 @@
                 </div>
             </div>
  */ ?>
-            <div class="sidebox comments" data-intro="Após ler o trecho e comparar com a versão anterior do PDE, use este espaço para enviar o seu comentário." data-step="5" data-position="left">
+            <div class="sidebox comments" data-intro="Use este espaço para enviar o seu comentário." data-step="5" data-position="left">
                 <h2><i class="icon-comment"></i>comentários</h2>
                 <div id="commentContainer">
                 </div>

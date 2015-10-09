@@ -6,7 +6,7 @@
             <a href="http://gestaourbana.prefeitura.sp.gov.br/" class="voltar-gestao">Voltar</a-->
             <p><?php bloginfo('name'); ?></p>
             <div class="socialbar pure-g-r">
-                <div class="pure-u-1-3">
+                <div class="pure-u-1-2">
                     <a href="#"
                     class="uibutton confirm"
                       onclick="
@@ -19,12 +19,12 @@
                       Compartilhar
                     </a>
                 </div>
-                <div class="pure-u-1-3">
+                <div class="pure-u-1-2">
                     <a href="https://twitter.com/share" class="twitter-share-button" data-lang="pt" data-size="80">Tweetar</a>
                     <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
                 </div>
-                <div class="pure-u-1-3">
-                    <!--div class="g-plus" data-action="share" data-annotation="bubble"></div>
+                <!--div class="pure-u-1-3">
+                    <div class="g-plus" data-action="share" data-annotation="bubble"></div>
                     <script type="text/javascript">
                       window.___gcfg = {lang: 'pt-BR'};
 
@@ -33,8 +33,8 @@
                         po.src = 'https://apis.google.com/js/plusone.js';
                         var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
                       })();
-                    </script-->
-                </div>
+                    </script>
+                </div-->
             </div>
         </div>
         <div class="pure-u-1 menubar">
@@ -103,7 +103,7 @@
                 </div>
             </div>
  */ ?>
-            <div class="sidebox comments" data-intro="Use este espaço para enviar o seu comentário." data-step="5" data-position="left">
+            <div class="sidebox comments" data-intro="Use este espaço para enviar o seu comentário." data-step="3" data-position="left">
                 <h2><i class="icon-comment"></i>comentários</h2>
                 <div id="commentContainer">
                 </div>

@@ -10,6 +10,10 @@ define(['jquery', 'Comments', 'RelatedContent', 'Proposals', 'spinjs', 'introjs'
             Proposals.init();
             RelatedContent.init();
 
+            jQuery('.comment-pp:eq(0)').attr('data-intro', 'Estes são os trechos do Estatuto da Rede Sustentabilidade que podem receber sua contribuição. Ao clicar sobre um deles, você verá uma atualização do lado direito do site. Clique em próximo e entenda.');
+            jQuery('.comment-pp:eq(0)').attr('data-step', '2');
+            jQuery('.comment-pp:eq(0)').attr('data-position', 'top');
+
             this.introJsObj = introJs().setOptions({
                 'nextLabel': 'Próximo',
                 'prevLabel': 'Anterior',
@@ -67,11 +71,6 @@ define(['jquery', 'Comments', 'RelatedContent', 'Proposals', 'spinjs', 'introjs'
 
         startIntro : function (e) {
             e.preventDefault();
-
-            jQuery('.comment-pp:eq(0)').attr('data-intro', 'Ao clicar sobre um trecho, você verá uma atualização do lado direito do site. Clique em próximo e entenda.');
-            jQuery('.comment-pp:eq(0)').attr('data-step', '2');
-            jQuery('.comment-pp:eq(0)').attr('data-position', 'top');
-
             Minuta.introJsObj.start();
         }
     };
